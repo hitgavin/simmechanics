@@ -4,7 +4,7 @@
 
 Open two_link_planner_robot.m file and run it in matlab
 
-![operability](https://github.com/hitgavin/simmechanics/tree/master/two_link_planner_robot/doc/two_link_planner_robot.gif)
+![operability](https://github.com/hitgavin/simmechanics/blob/master/two_link_planner_robot/doc/two_link_planner_robot.gif)
 
 ## Note
 
