@@ -55,7 +55,7 @@ for i = 1:size(dh, 1)
     R{i} = T{i}(1:3, 1:3);
     r{i} = T{i}(1:3, 4);
     T_e{i} = t_e_pre * T{i};
-    t_e_pre = T{i};
+    t_e_pre = T_e{i};
 end
 T{i+1} = eye(3);
 R{i+1} = eye(3);
