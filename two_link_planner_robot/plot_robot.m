@@ -27,8 +27,8 @@ plot([x0 x1], [y0 y1], [x1 x2], [y1 y2], 'linewidth', 3);
 text(0.5*(x0+x1),0.5*(y0+y1),' Link 1');
 text(0.5*(x1+x2),0.5*(y1+y2),' Link 2');
 % jacobian matrix
-J = [-y2, y1 - y2; 
-     x2 , x2 - x1];
+J = [-y1, y1 - y2; 
+     x1 , x2 - x1];
 J = inv(J*J' + eye(2)*0.0001);
 x_e = [x2, y2];
 end
